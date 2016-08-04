@@ -10,11 +10,11 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "table_test")
 public class User implements Serializable {
-	private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = 123456L;
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
-
+	
 	private String name;
 	// private Long age;
 
